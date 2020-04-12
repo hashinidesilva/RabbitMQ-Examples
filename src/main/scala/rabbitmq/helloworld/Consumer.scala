@@ -6,7 +6,7 @@ object Consumer {
 
   private val QUEUE_NAME = "hello"
 
-  def main(argv: Array[String]) {
+  def main(args: Array[String]) {
     val factory = new ConnectionFactory()
     factory.setHost("localhost")
     val connection = factory.newConnection()
