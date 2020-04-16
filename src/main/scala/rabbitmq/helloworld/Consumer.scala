@@ -8,6 +8,8 @@ object Consumer {
 
   def main(args: Array[String]) {
     val factory = new ConnectionFactory()
+    factory.setUsername("hashini")
+    factory.setPassword("1995")
     factory.setHost("localhost")
     val connection = factory.newConnection()
     val channel = connection.createChannel()
