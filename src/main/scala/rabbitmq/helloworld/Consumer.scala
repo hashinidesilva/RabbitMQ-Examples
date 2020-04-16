@@ -1,6 +1,6 @@
 package rabbitmq.helloworld
 
-import com.rabbitmq.client.{CancelCallback, ConnectionFactory, DeliverCallback}
+import com.rabbitmq.client._
 
 object Consumer {
 
