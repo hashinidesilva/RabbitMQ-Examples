@@ -2,7 +2,7 @@ package rabbitmq.publishsubscribe
 
 import com.rabbitmq.client.{CancelCallback, ConnectionFactory, DeliverCallback}
 
-object ReceiveLogs {
+object ReceiveLogs2 {
 
   private val EXCHANGE_NAME="logs"
 
